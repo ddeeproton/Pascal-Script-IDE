@@ -11,3 +11,7 @@ Pascal Script Compiler ("Multi-Thread" with "Process Manager" and "Script Memory
   
 ## Compilator
   https://www.lazarus-ide.org/
+  
+## Description
+Add scripting to your Pascal Application. This program can control your application with Pascal-script. This version is simplified as much as possible, without any librairies added. Ready to be intregrated to a Lazarus Project. 
+
