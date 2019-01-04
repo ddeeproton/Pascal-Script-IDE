@@ -24,7 +24,6 @@ begin
   RunNextScript := s;
 end;
 
-
 procedure Log(const s: string);
 begin
   Form1.Memo2.Lines.add(s);
