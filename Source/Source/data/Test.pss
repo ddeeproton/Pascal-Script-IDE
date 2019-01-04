@@ -1,0 +1,9 @@
+var i: Integer;
+begin
+//RunScript('Test.pss'); 
+//RunScriptAndContinue('Test.pss'); 
+//SetNextScript('Test.pss'); 
+for i := 0 to 2 do
+begin
+  Log('Test '+IntToStr(i));
+end;
