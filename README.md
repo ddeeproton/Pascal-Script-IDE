@@ -39,7 +39,7 @@ begin
   ProcessScript.RunScriptThread(dataPath + '\' + s);
 end;
 ```
-### 2. Set your functions in Pascal-Script
+### 2. Set your functions in Unit1.pas 
 ```
 procedure TForm1.PSScript1Compile(Sender: TPSScript);
 begin
@@ -50,6 +50,6 @@ begin
   Sender.AddFunction(@Sleep, 'procedure Sleep(i: Integer)');
 end;
 ```      
-### 3. Your functions are ready to be use in your script:
+### 3. Your functions are ready to be used in your script:
 
 ![](Images/main.jpg)
